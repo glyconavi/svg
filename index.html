@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SVG</title>
+</head>
+<body>
+
+<!-- SVG format -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svgtree" width="1000" height="500">
+  <line class="glink" id="edge0" x1="500" y1="250" x2="450" y2="250" pointer-events="none" style="stroke: black;" />
+  <line class="glink" id="edge1" x1="450" y1="250" x2="400" y2="250" pointer-events="none" style="stroke: black;" />
+  <line class="glink" id="edge2" x1="400" y1="250" x2="350" y2="300" pointer-events="none" style="stroke: black;" />
+  <line class="glink" id="edge3" x1="400" y1="250" x2="350" y2="200" pointer-events="none" style="stroke: black;" />
+  <g id="rabel" style="font-family: &quot;Courier New&quot;; font-size: 10px; alignment-baseline: text-before-edge; dominant-baseline: text-before-edge; stroke: black;">
+    <text x="475" y="255" style="text-anchor: middle;">β 4</text>
+    <text x="425" y="255" style="text-anchor: middle;">β 4</text>
+    <text x="388" y="275" style="text-anchor: middle;">α 3</text>
+    <text x="388" y="215" style="text-anchor: middle;">α 6</text>
+  </g>
+  <defs id="references">
+    <g id="glcnac">
+      <a xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/GlcNAc" target="_blank">
+        <rect width="28" height="28" style="stroke: black; cursor: pointer; fill: rgb(0, 144, 188);" />
+      </a>
+    </g>
+    <g id="man">
+      <a xlink:href="https://pubchem.ncbi.nlm.nih.gov/compound/Man" target="_blank">
+        <circle r="15" style="stroke: black; cursor: pointer; fill: rgb(0, 166, 81);" />
+      </a>
+    </g>
+  </defs>
+  <use xlink:href="#glcnac" class="gnode" id="node0" sugarName="GlcNAc" transform="translate(486,236)" />
+  <use xlink:href="#glcnac" class="gnode" id="node1" sugarName="GlcNAc" transform="translate(436,236)" />
+  <use xlink:href="#man" class="gnode" id="node2" sugarName="Man" transform="translate(400,250)" />
+  <use xlink:href="#man" class="gnode" id="node3" sugarName="Man" transform="translate(350,300)" />
+  <use xlink:href="#man" class="gnode" id="node4" sugarName="Man" transform="translate(350,200)" />
+</svg>
+
+
+</body>
+</html>
